@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.upload-section {
+    margin: 20px;
+}
+#streamgraph-container {
+    width: 800px;
+    margin: 0 auto;
+}
+#legend {
+    
+    justify-content: right;
+    margin: 20px 0;
+}
+.legend-item {
+    display: flex;
+    align-items: right;
+    margin: 0 10px;
+}
+.legend-item div {
+    margin-right: 5px;
+}
+.tooltip {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+    pointer-events: none;
+}
+.tooltip svg {
+    margin-top: 10px;
+}
+
