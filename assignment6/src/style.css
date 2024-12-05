@@ -1,3 +1,4 @@
+/* General body styling */
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
@@ -5,37 +6,47 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-}
-.upload-section {
+  }
+  
+  /* Section for uploading CSV files */
+  .upload-section {
     margin: 20px;
-}
-#streamgraph-container {
+  }
+  
+  /* Streamgraph container styling */
+  #streamgraph-container {
     width: 800px;
     margin: 0 auto;
-}
-#legend {
-    
-    justify-content: right;
-    margin: 20px 0;
-}
-.legend-item {
+  }
+  
+  /* Legend styling */
+  #legend {
     display: flex;
-    align-items: right;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
     margin: 0 10px;
-}
-.legend-item div {
+  }
+  .legend-item div {
+    width: 20px;
+    height: 20px;
     margin-right: 5px;
-}
-.tooltip {
-    display: none;
+  }
+  
+  .tooltip {
     position: absolute;
-    background-color: white;
+    display: none;
+    background: white;
     border: 1px solid #ccc;
-    padding: 8px;
+    padding: 10px;
     border-radius: 4px;
     pointer-events: none;
-}
-.tooltip svg {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  .tooltip svg {
     margin-top: 10px;
-}
-
+  }
+  
